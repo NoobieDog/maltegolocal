@@ -25,7 +25,7 @@ import (
 )
 
 func main() {
-	lt := maltegogo.ParseLocalArguments(os.Args)
+	lt := maltegolocal.ParseLocalArguments(os.Args)
 	Domain := lt.Value
 	
 	TRX := maltegolocal.MaltegoTransform{}
