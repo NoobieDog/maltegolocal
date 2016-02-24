@@ -11,7 +11,7 @@ Please see the Paterva / Maltego documentaion [HERE](https://www.paterva.com/web
 
 ## Settings for the local transform
 
-![alt text](https://github.com/NoobieDog/maltegolocal/setup.png "Setup")
+![alt text](https://github.com/NoobieDog/maltegolocal/blob/master/setup.png "Setup")
 
 ## Sample Transform
 
