@@ -1,8 +1,8 @@
 # Maltegolocal
 Local Transform Wrapper for Maltego
 
-**authors: Stuart Kennedy / @noobiedog**
-**authors: Glenn Wilkinson / @Glennzw**
+**authors: Stuart Kennedy / @noobiedog | Glenn Wilkinson / @Glennzw**
+
 **company: Sensepost / @sensepost**
 
 #### NOTE: Still under development.
@@ -11,7 +11,7 @@ Please see the Paterva / Maltego documentaion [HERE](https://www.paterva.com/web
 
 ## Settings for the local transform
 
-![alt text](https://github.com/adam-p/markdown-here/setup.png "Setup")
+![alt text](https://github.com/NoobieDog/maltegolocal/setup.png "Setup")
 
 ## Sample Transform
 
