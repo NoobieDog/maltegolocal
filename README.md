@@ -44,3 +44,8 @@ func main() {
  	fmt.Println(TRX.ReturnOutput())
 }
 ```
+
+## License
+-------
+
+maltegolocal is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (http://creativecommons.org/licenses/by-nc-sa/4.0/) Permissions beyond the scope of this license may be available at http://sensepost.com/contact_us/.
