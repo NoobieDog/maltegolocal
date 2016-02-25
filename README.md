@@ -25,8 +25,11 @@ import (
 )
 
 func main() {
+	lt := maltegolocal.ParseLocalArguments(os.Args)
+	Domain := lt.Value
+
 	TRX := maltegolocal.MaltegoTransform{}
-	Domain := os.Args[1]
+
 	NewEnt := TRX.AddEntity("maltego.Domain", "Hello" + Domain)
 	NewEnt.SetType("maltego.Domain")
 	NewEnt.SetValue(Domain)
@@ -35,7 +38,9 @@ func main() {
 	NewEnt.SetLinkColor("#FF0000")
 	NewEnt.SetWeight(200) 
 	NewEnt.SetNote("Domain is " + Domain)
+
 	TRX.AddUIMessage("completed!","Inform")
+	
  	fmt.Println(TRX.ReturnOutput())
 }
 ```
