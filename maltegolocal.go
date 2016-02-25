@@ -11,6 +11,7 @@ import (
 	"encoding/xml"
 	"strconv"
 	"fmt"
+	"strings"
 )
 // ############### STRUCTS #################
 
